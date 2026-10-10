@@ -1,0 +1,27 @@
+# Ambientes virtuais e arquivos Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Arquivos temporários de notebooks e ferramentas
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Dados e modelos gerados: reproduzidos a partir da camada raw
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep

@@ -1,0 +1,9 @@
+# Dependências iniciais para o desenvolvimento local.
+# Fixar as versões após validar a implementação e o ambiente.
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyterlab
+joblib
